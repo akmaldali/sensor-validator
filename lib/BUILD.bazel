@@ -1,0 +1,8 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "sensor_validator",
+    srcs = ["sensor_validator.cc"],
+    hdrs = ["sensor_validator.h"],
+    visibility = ["//visibility:public"],
+)
